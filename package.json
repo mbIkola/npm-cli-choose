@@ -1,0 +1,38 @@
+{
+  "name": "npm-cli-choose",
+  "description": "Just cli console with autocompletion, readline, history and something. Something like co-prompt, but without fatal defect.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mbIkola/npm-cli-choose",
+  "author": {
+    "name": "Nickolay (mbIkola) Kharchevin",
+    "email": "nickolay.kharchevin@filmon.com",
+    "url": "google.com/+NickolayKharchevyn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mbIkola/npm-cli-choose"
+  },
+  "bugs": {
+    "url": "https://github.com/mbIkola/npm-cli-choose/issues"
+  },
+  "licenses": [
+    {
+      "type": "WTFPL",
+      "url": "https://github.com/mbIkola/npm-cli-choose/blob/master/LICENSE-WTFPL"
+    }
+  ],
+  "main": "lib/choose.js",
+  "engines": {
+    "node": "0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
