@@ -1,6 +1,6 @@
 'use strict';
 
-var npm_cli_choose = require('../lib/npm-cli-choose.js');
+var Choose = require('../lib/choose.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -28,9 +28,12 @@ exports['awesome'] = {
     done();
   },
   'no args': function(test) {
-    test.expect(1);
     // tests here
-    test.equal(npm_cli_choose.awesome(), 'awesome', 'should be awesome.');
+    var cli = new Choose({}, "awesome greeting", "awesome prompt"); 
+
+    test.equal(cli.greeting(), 'awesome greeting', 'should be awesome greeting.');
+    test.equal(cli.prompt(), 'awesome prompt', 'should be awesome prompt.');
+
     test.done();
   },
 };

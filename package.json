@@ -34,5 +34,12 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.5"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "cli-table": "^0.3.0",
+    "grunt-cli": "^0.1.13",
+    "q": "^1.0.1",
+    "readline": "0.0.3",
+    "underscore": "^1.6.0"
+  }
 }
